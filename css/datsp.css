@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 1920px;
+    display: grid;
+    grid-template-rows: 500px 1500px 300px;
+    /* background-image: url('img/img-logo/logo.jpg'); */
+}
+
+.banner {
+    width: 1920px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 50px 50px 400px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1000;
+}
+
+.banner .logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner .menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner .menu ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.banner .menu a:hover {
+    border: 1px solid black;
+}
+
+.banner .quang_cao {
+    background-color: red;
+}
+
+.container {
+    border: 0.1px solid #0000004d;
+}
+
+.container .san_pham {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+}
+
+.container .san_pham .img-sp {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.container .san_pham .img-sp .img-con {
+    display: grid;
+    grid-template-rows: 120px 120px;
+    width: 150px;
+    background-color: white;
+}
+
+.container .san_pham .img-sp .img-con img {
+    width: 100%;
+    height: 120px
+}
+
+.container .san_pham .img-sp .img-con a:hover {
+    border: 1px solid black;
+}
+
+.san_pham .img-sp .img-change img {
+    width: 100%;
+    height: 100%;
+}
+
+.san_pham .thong_tin span {
+    font-size: 16px;
+}

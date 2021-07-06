@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 1920px;
+    display: grid;
+    grid-template-rows: 500px 2650px 300px;
+    /* background-image: url('img/img-logo/logo.jpg'); */
+}
+
+.banner {
+    width: 1920px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 50px 50px 400px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1000;
+}
+
+.banner .logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner .menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner .menu ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.banner .menu a:hover {
+    border: 1px solid black;
+}
+
+.banner .quang_cao {
+    background-color: red;
+}
+
+.container {
+    border: 0.1px solid #0000004d;
+}
+
+.container .san_pham {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+}
+
+.container .san_pham .img-sp {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.container .san_pham .img-sp .img-con {
+    display: grid;
+    grid-template-rows: 120px 120px;
+    width: 150px;
+    background-color: white;
+}
+
+.container .san_pham .img-sp .img-con img {
+    width: 100%;
+    height: 120px
+}
+
+.container .san_pham .img-sp .img-con a:hover {
+    border: 1px solid black;
+}
+
+.san_pham .img-sp .img-change img {
+    width: 100%;
+    height: 100%;
+}
+
+.san_pham .thong_tin span {
+    font-size: 16px;
+}
+
+.buttons_added {
+    opacity: 1;
+    display: inline-block;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.is-form {
+    overflow: hidden;
+    position: relative;
+    background-color: #f9f9f9;
+    height: 2.2rem;
+    width: 1.9rem;
+    padding: 0;
+    text-shadow: 1px 1px 1px #fff;
+    border: 1px solid #ddd;
+}
+
+.input-text:focus {
+    outline: none;
+}
+
+.is-form.minus {
+    border-radius: 4px 0 0 4px;
+}
+
+.is-form.plus {
+    border-radius: 0 4px 4px 0;
+}
+
+.input-qty {
+    background-color: #fff;
+    height: 2.2rem;
+    text-align: center;
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+    padding: 0;
+}
+
+.input-qty::-webkit-outer-spin-button,
+.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
